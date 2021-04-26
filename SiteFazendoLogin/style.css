@@ -21,8 +21,8 @@
         text-shadow: 0 0 3.5px wheat;
     }
     #header .navMenu .active{
-        color: rgb(78, 168, 42);
-        text-shadow: 0 0 3.5px rgb(80, 156, 50);
+        color: #F3AB39;
+        text-shadow: black;
     }
     #header a:hover{
         color: rgb(15, 154, 179);
@@ -56,8 +56,8 @@
         text-shadow: 0 0 3.5px rgb(64, 213, 240);
     }
     #main .sideContent .active{
-        color: rgb(78, 168, 42);
-        text-shadow: 0 0 3.5px rgb(80, 156, 50);
+        color: #F3AB39;
+        text-shadow: black;
     }
  /*--------*/
 
@@ -83,23 +83,32 @@
         text-shadow: 0 0 3.5px rgb(64, 213, 240);
     }
     #footer.active{
-        color: rgb(78, 168, 42);
-        text-shadow: 0 0 3.5px rgb(80, 156, 50);
+        color:#F3AB39;
+        text-shadow: black;
     }
 
 /*-------------------------------------------------*/
 /*Logo*/
+
+    .imagemLogo{
+        padding-top: 5px;
+        width: 19%;
+    }
 
     .logoBlock{
         background-color: rgb(59, 59, 59);
         padding: 0 0 0 5%;
     }
     .logo{
-        color: rgb(78, 168, 42);
-        text-shadow: 0 0 3.5px rgb(80, 156, 50);
-
+        color: #F3AB39;
+        text-shadow: black;
         
         float: left;
+    }
+
+    .logo h1{
+        margin-top: 10px;
+        font-size: 140%;
     }
 
 
@@ -176,21 +185,58 @@
 /*-------------------------*/
 /*Cards Equipe*/
 
+    .imgEquipeLucas img{
+        width: 120%;
+        border-radius: 1%;
+    }
+
+    .areaEquipe{
+        display: flex;
+        margin-left: 5.5%;
+    }
+
+    .titulo-Equipe{
+        margin-top: 40px;
+        padding-left: 20px;
+    }
+
+    .titulo-Equipe h1{
+        color: #F3AB39;
+        text-shadow: black 2px 2px;
+    }
+
+    .card-Equipe{
+        margin-top: 40px;
+        margin-left: 40px;
+
+        border-color: #b38030;
+        border-width: 1px;
+
+        background-color: #3B3B3B;
+    }
+
+    .card-Equipe h5{
+        color: #F3AB39;
+    }
+
+    .card-Equipe p{
+        color: white;
+    }
+
     .cardGroupMain{
 
         display: flex;
+        align-content: center;
         overflow-x: scroll;
         
         padding: 0.8% 0;
+        
         height: 620px;
     }
     .cardGroupMain::-webkit-scrollbar{
         display: none !important;
     }
-    .card{
-        border: none !important;
-
-    }
+    
     .cardBlock{
         width: 25%;
         height: 40px;
@@ -356,6 +402,23 @@
     }
 
 /*----------------------------------------------------------------------*/
+
+.subtituloEmpresa{
+    margin-left: 10%;
+    margin-top: 5px;
+    padding-bottom: 5%;
+    
+    color: white;
+}
+
+.subtituloEmpresa h3{
+    
+    color: #F3AB39;
+    
+    font-size: 30px;
+}
+
+
 
 /*Celular*/
 /* @media screen and (max-width:720px){
